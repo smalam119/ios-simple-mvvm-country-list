@@ -40,43 +40,6 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kHt-9d-MhG">
                                 <rect key="frame" x="0.0" y="114" width="375" height="553"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="CountryListTableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CountryListTableViewCell" rowHeight="80" id="caJ-m8-tLz" customClass="CountryListTableViewCell" customModule="CountryList" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="80"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="caJ-m8-tLz" id="Vlr-6A-JAb">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Q7-SI-azN">
-                                                    <rect key="frame" x="15" y="11" width="637" height="24"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Capital" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asA-gp-bUq">
-                                                    <rect key="frame" x="15" y="43" width="637" height="18"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="9Q7-SI-azN" firstAttribute="top" secondItem="Vlr-6A-JAb" secondAttribute="topMargin" id="03P-pi-UJP"/>
-                                                <constraint firstItem="asA-gp-bUq" firstAttribute="trailing" secondItem="Vlr-6A-JAb" secondAttribute="trailingMargin" id="2jn-Rh-PAT"/>
-                                                <constraint firstItem="asA-gp-bUq" firstAttribute="leading" secondItem="Vlr-6A-JAb" secondAttribute="leadingMargin" id="3Dc-Sh-1cN"/>
-                                                <constraint firstItem="9Q7-SI-azN" firstAttribute="leading" secondItem="Vlr-6A-JAb" secondAttribute="leadingMargin" id="Icn-Af-GHi"/>
-                                                <constraint firstItem="asA-gp-bUq" firstAttribute="top" secondItem="9Q7-SI-azN" secondAttribute="bottom" constant="8" id="O2l-RR-SPF"/>
-                                                <constraint firstItem="9Q7-SI-azN" firstAttribute="trailing" secondItem="Vlr-6A-JAb" secondAttribute="trailingMargin" id="mzY-by-CWV"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="asA-gp-bUq" secondAttribute="bottom" constant="8" id="sTK-Vs-uOO"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="countryCapitalLabel" destination="asA-gp-bUq" id="CWA-Xv-yL7"/>
-                                            <outlet property="countryTitleLabel" destination="9Q7-SI-azN" id="pJn-Xs-DtL"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -25,6 +25,8 @@ class ViewController: UIViewController {
     }
     
     func prepareTableview(tableView: UITableView) {
+        let nib = UINib.init(nibName: "CountryListTableViewCell", bundle: nil)
+        self.countryListTableView.register(nib, forCellReuseIdentifier: "CountryListTableViewCell")
         tableView.dataSource = self
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 100

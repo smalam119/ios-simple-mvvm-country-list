@@ -1,8 +1,8 @@
 //
-//  CountryListTableViewCell.swift
+//  CountryListTableViewCellXib.swift
 //  CountryList
 //
-//  Created by Sayed Mahmudul Alam on 7/7/19.
+//  Created by Sayed Mahmudul Alam on 8/12/19.
 //  Copyright © 2019 smalam119. All rights reserved.
 //
 
@@ -10,7 +10,7 @@ import UIKit
 
 class CountryListTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var countryTitleLabel: UILabel!
+    @IBOutlet weak var countryNameLabel: UILabel!
     @IBOutlet weak var countryCapitalLabel: UILabel!
 
     override func awakeFromNib() {
@@ -22,7 +22,7 @@ class CountryListTableViewCell: UITableViewCell {
     }
     
     func prepareView(countryName: String, countryCapital: String) {
-        countryTitleLabel.text = countryName
+        countryNameLabel.text = countryName
         countryCapitalLabel.text = countryCapital
     }
 
