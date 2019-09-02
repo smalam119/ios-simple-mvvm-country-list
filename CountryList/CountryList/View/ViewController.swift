@@ -9,11 +9,12 @@
 import UIKit
 import Alamofire
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, Storyboarded {
     
     @IBOutlet weak var countryListTableView: UITableView!
     @IBOutlet weak var countLabel: UILabel!
     
+    weak var coordinator: MainCoordinator?
     var countryListViewModel: CountryListViewModel?
 
     override func viewDidLoad() {
@@ -28,6 +29,7 @@ class ViewController: UIViewController {
         let nib = UINib.init(nibName: "CountryListTableViewCell", bundle: nil)
         self.countryListTableView.register(nib, forCellReuseIdentifier: "CountryListTableViewCell")
         tableView.dataSource = self
+        tableView.delegate = self
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 100
     }
@@ -51,6 +53,12 @@ extension ViewController: UITableViewDataSource {
             return 0
         }
         return count
+    }
+}
+
+extension ViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        coordinator?.gotoCountryDetail()
     }
 }
 
