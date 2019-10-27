@@ -7,7 +7,7 @@ target 'CountryList' do
   
   # Pods for CountryList
   pod 'Alamofire'
-  
+  pod 'google-cast-sdk-dynamic-ios'
   target 'CountryListTests' do
   end
 
