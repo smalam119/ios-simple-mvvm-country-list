@@ -284,6 +284,7 @@
 				CE42DCB822D207B00061A79D /* Frameworks */,
 				CE42DCB922D207B00061A79D /* Resources */,
 				B69787400DA7796E571326DC /* [CP] Embed Pods Frameworks */,
+				BE12E44DC534EDEFBF881224 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -303,6 +304,7 @@
 				CE42DCCC22D207B10061A79D /* Frameworks */,
 				CE42DCCD22D207B10061A79D /* Resources */,
 				833A8ED8732B0EB17BA2108F /* [CP] Embed Pods Frameworks */,
+				A8AB7F5CCE116D132EE9D4B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -323,6 +325,7 @@
 				CE42DCD722D207B20061A79D /* Frameworks */,
 				CE42DCD822D207B20061A79D /* Resources */,
 				FB67CF623F795A1AD4F4597F /* [CP] Embed Pods Frameworks */,
+				0B58C5D9E8E3A4C44D53DB9F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -407,6 +410,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0B58C5D9E8E3A4C44D53DB9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CountryList-CountryListUITests/Pods-CountryList-CountryListUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CountryList-CountryListUITests/Pods-CountryList-CountryListUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CountryList-CountryListUITests/Pods-CountryList-CountryListUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		59BBA0A3C1B19EF36596FFE3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -435,20 +455,32 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CountryList-CountryListTests/Pods-CountryList-CountryListTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-CountryList-CountryListTests/Pods-CountryList-CountryListTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-CountryList-CountryListTests/Pods-CountryList-CountryListTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountryList-CountryListTests/Pods-CountryList-CountryListTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CountryList-CountryListTests/Pods-CountryList-CountryListTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8AB7F5CCE116D132EE9D4B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CountryList-CountryListTests/Pods-CountryList-CountryListTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CountryList-CountryListTests/Pods-CountryList-CountryListTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CountryList-CountryListTests/Pods-CountryList-CountryListTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B2CAEC34644C32141E4604CA /* [CP] Check Pods Manifest.lock */ = {
@@ -479,20 +511,32 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CountryList/Pods-CountryList-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-CountryList/Pods-CountryList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-CountryList/Pods-CountryList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountryList/Pods-CountryList-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CountryList/Pods-CountryList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE12E44DC534EDEFBF881224 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CountryList/Pods-CountryList-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CountryList/Pods-CountryList-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CountryList/Pods-CountryList-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F4EF04CE358ED7B9911DE460 /* [CP] Check Pods Manifest.lock */ = {
@@ -523,20 +567,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CountryList-CountryListUITests/Pods-CountryList-CountryListUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-CountryList-CountryListUITests/Pods-CountryList-CountryListUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-CountryList-CountryListUITests/Pods-CountryList-CountryListUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountryList-CountryListUITests/Pods-CountryList-CountryListUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CountryList-CountryListUITests/Pods-CountryList-CountryListUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
