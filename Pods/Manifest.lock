@@ -1,28 +1,16 @@
 PODS:
   - Alamofire (4.8.2)
-  - google-cast-sdk-dynamic-ios (4.4.5):
-    - google-cast-sdk-dynamic-ios/Core (= 4.4.5)
-    - Protobuf (~> 3.0)
-  - google-cast-sdk-dynamic-ios/Core (4.4.5):
-    - Protobuf (~> 3.0)
-  - Protobuf (3.10.0)
 
 DEPENDENCIES:
   - Alamofire
-  - google-cast-sdk-dynamic-ios
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
-  trunk:
-    - google-cast-sdk-dynamic-ios
-    - Protobuf
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
-  google-cast-sdk-dynamic-ios: 2e7de06f5e965a56226343eccbb0052f3b4a9468
-  Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
 
-PODFILE CHECKSUM: df574eb34685563edfe9399bf6d02be73de9a9e3
+PODFILE CHECKSUM: 78dcdfbcc1d712bd1b6b9cf88bf1814a66713ecb
 
 COCOAPODS: 1.8.4
